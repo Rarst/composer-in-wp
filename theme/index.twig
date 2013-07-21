@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% include 'title.twig' %}
+    {% if meta.description is defined %}
+        <meta name="description" content="{{ meta.description }}">
+    {% endif %}
+    {% if meta.robots is defined %}
+        <meta name="robots" content="{{ meta.robots }}">
+    {% endif %}
+
+    <link href="//netdna.bootstrapcdn.com/bootswatch/2.3.2/readable/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/highlight.js/7.3b/styles/solarized_light.min.css" rel="stylesheet">
+    <style type="text/css">{% include 'style.css' %}</style>
+
+    {% if base_url == 'http://composer.rarst.net' %}
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-42622442-1', 'rarst.net');
+            ga('send', 'pageview');
+
+        </script>
+    {% endif %}
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/headjs/0.99/head.load.min.js"></script>
+    <script type="text/javascript">
+        head.js(
+                "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+                "//cdn.jsdelivr.net/jquery.pjax/1.7.0/jquery.pjax.min.js",
+                "//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js",
+                "//cdn.jsdelivr.net/highlight.js/7.3b/highlight.min.js",
+                "{{ theme_url }}/scripts/jquery.tableofcontents.min.js"
+        );
+    </script>
+</head>
+<body data-spy="scroll" data-target="#toc">
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <a class="brand" href="{{ base_url }}">{{ app.site_title }}</a>
+
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Recipes&hellip;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/recipe/core-package">Core Package</a></li>
+                                    <li><a href="/recipe/paths-control">Paths Control</a></li>
+                                    <li><a href="/recipe/site-stack">Site Stack</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Case Studies&hellip;
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-header">Updated</li>
+                                    <li><a href="/case-study/tlc-transients">TLC Transients</a></li>
+                                    <li><a href="/case-study/scbframework">scbFramework</a></li>
+                                    <li class="nav-header">Developed</li>
+                                    <li><a href="/case-study/laps">Laps</a></li>
+                                    <li><a href="/case-study/fragment-cache">Fragment Cache</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/resources">Resources</a></li>
+                            <li><a href="/about">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{#{{ "now"|date("c") }}#}
+<div class="container">
+    <div id="pjax-container">
+        {% include 'content.twig' %}
+    </div>
+
+    <div class="footer row">
+        <div class="span12">
+            Created <a href="http://www.Rarst.net/">Rarst</a> &mdash;
+            Powered <a href="https://bitbucket.org/Rarst/seam/">Seam</a> &mdash;
+            Hosted <a href="http://www.liquidweb.com/?RID=Rarst">LiquidWeb</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    {% include 'scripts/scripts.js' %}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+Options +FollowSymLinks
+
+RedirectMatch 404 /\\.hg(/|$)
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access plus 1 days"
+
+    <IfModule mod_headers.c>
+        Header append Cache-Control "public"
+    </IfModule>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+
+# Prevent file browsing
+Options -Indexes

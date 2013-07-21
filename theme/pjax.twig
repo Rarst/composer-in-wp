@@ -1,0 +1,2 @@
+{% if app.request.headers.get('X-Pjax') %}{% include 'title.twig' %}{% endif %}
+{% include 'content.twig' %}

@@ -1,0 +1,28 @@
+{
+    "name"        : "rarst/cwp",
+    "description" : "Composer in WordPress site source",
+    "keywords"    : ["wordpress", "composer"],
+    "type"        : "project",
+    "homepage"    : "https://composer.rarst.net",
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"    : "Andrey Savchenko",
+            "email"   : "contact@rarst.net",
+            "homepage": "http://www.Rarst.net/"
+        }
+    ],
+    "support"     : {
+        "issues": "https://bitbucket.org/Rarst/cwp/issues",
+        "source": "https://bitbucket.org/Rarst/cwp/src"
+    },
+    "require"     : {
+        "rarst/seam": "*@dev"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "http://rarst.net"
+        }
+    ]
+}
