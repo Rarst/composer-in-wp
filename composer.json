@@ -17,7 +17,7 @@
         "source": "https://bitbucket.org/Rarst/cwp/src"
     },
     "require"     : {
-        "rarst/seam": "*@dev"
+        "rarst/seam": "~0.1"
     },
     "repositories": [
         {
