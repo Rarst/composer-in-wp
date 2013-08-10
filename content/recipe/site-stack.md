@@ -80,8 +80,6 @@ For example it can be something like this ([original gist](https://gist.github.c
 
 ### From Remote Repository
 
-<div class="alert">Currently misbehaving on Windows with my repository (<a href="https://github.com/composer/composer/issues/2096">#2096</a>). Try local file method above instead.</div>
-
 Run:
 
     composer create-project rarst/install-test wordpress dev-master --repository-url=http://rarst.net --prefer-dist
