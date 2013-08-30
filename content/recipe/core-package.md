@@ -61,7 +61,7 @@ Then making use of it in project becomes:
 	    	}
 	    ],
 	    "require" : {
-	    	"rarst/wordpress" : ">=3.5",
+	    	"rarst/wordpress" : ">=3.5"
 	    }
     }
 
