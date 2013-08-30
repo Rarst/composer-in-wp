@@ -37,7 +37,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 			"vendor-dir": "wp-content/vendor"
 		},
 		"require"     : {
-			"rarst/wordpress"          : ">=3.5",
+			"rarst/wordpress"          : ">=3.6",
 			"rarst/hybrid-wing"        : "*@dev",
 			"rarst/fragment-cache"     : "~1.0",
 			"wpackagist/wp-super-cache": "*"
@@ -54,9 +54,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 			"wpackagist/wcm-user-language-switcher": "*"
 		},
 		"extra"       : {
-			"installer-paths": {
-				"./wp/": ["rarst/wordpress"]
-			}
+			"wordpress-install-dir": "wp"
 		}
 	}
 
@@ -69,13 +67,13 @@ For example it can be something like this ([original gist](https://gist.github.c
   -  my own Composer repository at [Rarst.net/packages.json](http://www.rarst.net/packages.json)
  - `vendor` directory is relocated inside `wp-content`
  - WordPress core, custom theme and number of plugins are listed as dependencies, part of them as for optional development context
- - WordPress [core package](/recipe/core-package) is configured to go into `wp` subdirectory     
+ - WordPress [core package](/recipe/core-package) is configured to go into `wp` subdirectory (using custom `wordpress-install-dir` configuration option of core installer, required by core package)
 
 ## Installation
 
 ### From Local File
 
-1. [Download `composer.json`from gist](https://gist.github.com/Rarst/5300767/raw/composer.json)  into empty directory
+1. [Download `composer.json` from gist](https://gist.github.com/Rarst/5300767/raw/composer.json) into empty directory
 2. Run `composer install --prefer-dist` in that directory
 
 ### From Remote Repository

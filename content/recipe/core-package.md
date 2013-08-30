@@ -23,25 +23,25 @@ Package for a specific release version of WordPress can be defined like this:
     	"type"   : "package",
     	"package": {
     		"name"   : "rarst/wordpress",
-    		"type"   : "wordpress-plugin",
-    		"version": "3.5.2",
+    		"type"   : "wordpress-core",
+    		"version": "3.6",
     		"dist"   : {
-    			"url" : "http://wordpress.org/wordpress-3.5.2.zip",
+    			"url" : "http://wordpress.org/wordpress-3.6.zip",
     			"type": "zip"
     		},
     		"source" : {
     			"url"  : "https://github.com/WordPress/WordPress",
     			"type" : "git",
-    			"reference": "3.5.2"
+    			"reference": "3.6"
     		},
     		"require": {
-    			"composer/installers": "~1.0"
+    			"johnpbloch/wordpress-core-installer": "~0.1"
     		}
     	}
     }
 
  - for name I am declaring it in my own `rarst/*` vendor namespace, so it doesn't conflict with anything
- - `wordpress-plugin` type and `composer/installers` dependency is small hack to allow path customization (otherwise Composer will try to nest core in a vendor directory), see [site stack recipe](/recipe/site-stack) for details
+ - `wordpress-core` type and `johnpbloch/wordpress-core-installer` dependency serve to allow clean path customization (otherwise Composer will try to nest core in a vendor directory), see [site stack recipe](/recipe/site-stack) for details
  - distribution points to simple direct download from official site
  - source points to the release tag at official GitHub mirror, although original Subversion repository would work as well
 
@@ -61,7 +61,7 @@ Then making use of it in project becomes:
 	    	}
 	    ],
 	    "require" : {
-	    	"rarst/wordpress" : ">=3.5"
+	    	"rarst/wordpress" : ">=3.6"
 	    }
     }
 
