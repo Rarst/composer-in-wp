@@ -35,6 +35,8 @@ Compilation of links to online resources about, for, and near Composer.
  - [Nils Adermann](http://www.naderman.de/) ([@naderman](https://twitter.com/naderman)) &ndash; Composer developer
  - [Jordi Boggiano](http://nelm.io/jordi) ([@seldaek](https://twitter.com/seldaek)) &ndash; Composer developer
  - [Andrey Savchenko](http://www.rarst.net/) ([@Rarst](https://twitter.com/Rarst)) &ndash; made this site so gets to plug himself all over it
+ - [Tamlyn Rhodes](http://tamlyn.org/) ([@tamlyn](https://twitter.com/tamlyn)) &ndash; WordPress Packagist developer
+ - [John P Bloch](http://johnpbloch.com/) ([@johnpbloch](https://twitter.com/johnpbloch)) &ndash; WordPress core installer developer
  - [#ComposerPHP](https://twitter.com/search/%23ComposerPHP) on Twitter
 
 ## Tools
