@@ -21,7 +21,7 @@ So don't hesitate to contact with questions or suggestions!
 ## Internals
 
  - [Seam](https://bitbucket.org/Rarst/seam/)
- - [Twitter Bootstrap](http://twitter.github.io/bootstrap/) with [Readable theme](http://bootswatch.com/readable/)
+ - [Twitter Bootstrap](http://getbootstrap.com/) with [Readable theme](http://bootswatch.com/readable/)
  - scripts
   - [HeadJS](http://headjs.com/) 
   - [jQuery](http://jquery.com/)
