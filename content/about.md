@@ -35,6 +35,10 @@ So don't hesitate to contact with questions or suggestions!
 
 ## Changelog
 
+ - **2013-11**
+  - updated scripts and styles
+  - removed mentions of imploded trac ticket
+  - added `johnpbloch/wordpress` info
  - **2013-08**
   - updated repos and guide to using core installer
  - **2013-07**
