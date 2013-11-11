@@ -10,7 +10,6 @@ Compilation of links to online resources about, for, and near Composer.
  - [Composer documentation](http://getcomposer.org/doc/)
  - Composer [GitHub project](https://github.com/composer/composer) and [issue tracker](https://github.com/composer/composer/issues) 
  - [interactive `composer.json` cheat sheet](http://composer.json.jolicode.com/)
- - [#23912 "Add Composer package description"](http://core.trac.wordpress.org/ticket/23912) WordPress core trac ticket
 
 ## Specifications
 
@@ -27,6 +26,7 @@ Compilation of links to online resources about, for, and near Composer.
 ## Packages
 
  - [composer/installers](https://github.com/composer/installers) ([Packagist](https://packagist.org/packages/composer/installers)) &ndash; custom installer for frameworks' paths (including WordPress extensions)
+ - [johnpbloch/wordpress](https://github.com/johnpbloch/wordpress) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress)) &ndash; automated fork of WordPress core, adding Composer support
  - [johnpbloch/wordpress-core-installer](https://github.com/johnpbloch/wordpress-core-installer) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress-core-installer)) &ndash; custom installer for WordPress core to cleanly customize subdirectory path
  - [rarst/locate-vendor](https://bitbucket.org/Rarst/locate-vendor) (Composer repository `http://rarst.net`) &ndash; small experimental helper to resolve vendor folder location 
 
