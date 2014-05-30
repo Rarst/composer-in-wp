@@ -13,8 +13,7 @@
         }
     ],
     "support"     : {
-        "issues": "https://bitbucket.org/Rarst/cwp/issues",
-        "source": "https://bitbucket.org/Rarst/cwp/src"
+        "issues": "https://github.com/Rarst/composer-in-wp/issues"
     },
     "require"     : {
         "rarst/seam": "~0.1"
