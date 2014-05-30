@@ -13,14 +13,14 @@ This site's goal is to provide and point to any information you could possibly n
 
 So don't hesitate to contact with questions or suggestions!
 
- - pull request to [Bitbucket/Rarst/CWP](https://bitbucket.org/Rarst/cwp) or [open issue](https://bitbucket.org/Rarst/cwp/issues)
+ - pull request to [GitHub/Rarst/composer-in-wp](https://github.com/Rarst/composer-in-wp) or [open issue](https://github.com/Rarst/composer-in-wp/issues)
  - tweet [@Rarst](https://twitter.com/Rarst)
  - email [contact@rarst.net](mailto:contact@rarst.net)
  - drop by [The Loop](http://chat.stackexchange.com/rooms/6/the-loop) chat room at [WPSE](http://wordpress.stackexchange.com/)
 
 ## Internals
 
- - [Seam](https://bitbucket.org/Rarst/seam/)
+ - [Seam](https://github.com/Rarst/seam)
  - [Twitter Bootstrap](http://getbootstrap.com/) with [Readable theme](http://bootswatch.com/readable/)
  - scripts
   - [HeadJS](http://headjs.com/) 
