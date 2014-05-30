@@ -21,8 +21,8 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url" : "http://rarst.net"
+            "type": "vcs",
+            "url" : "https://github.com/Rarst/seam"
         }
     ]
 }
