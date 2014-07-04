@@ -16,7 +16,7 @@
         "issues": "https://github.com/Rarst/composer-in-wp/issues"
     },
     "require"     : {
-        "rarst/seam": "~0.1"
+        "rarst/seam": "dev-master"
     },
     "repositories": [
         {
