@@ -60,7 +60,7 @@ code {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 979px) {
 	#toc {
    width: auto;
    margin-bottom: 20px;
