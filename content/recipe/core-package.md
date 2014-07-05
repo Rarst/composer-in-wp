@@ -4,9 +4,9 @@ subtitle = recipe
 description = How to create Composer package for WordPress core
 -->
 
-Composer works best with code accompanied by `composer.json` and that is something WordPress core hadn't adopted yet. There is a bit of tinkering involved to create shim package for core.
+<div class="alert alert-info">You can skip this and use <a href="https://packagist.org/packages/johnpbloch/wordpress"><code>johnpbloch/wordpress</code></a> package.</div>
 
-If you are not interested in details you could skip that and use [`johnpbloch/wordpress`](https://packagist.org/packages/johnpbloch/wordpress) fork with the one purpose of adding Composer support.
+Composer works best with code accompanied by `composer.json` and that is something WordPress core hadn't adopted yet. There is a bit of tinkering involved to create shim package for core.
 
 ## Create Custom Package
 
