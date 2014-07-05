@@ -17,11 +17,5 @@
     },
     "require"     : {
         "rarst/seam": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url" : "https://github.com/Rarst/seam"
-        }
-    ]
+    }
 }
