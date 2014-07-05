@@ -17,7 +17,7 @@ It can help you improve how you **develop, share, make use of, host, and deploy*
 
 ### Dependency
 
-So what is "dependency"? Basic building block of Composer world is "package" and it is:
+So what is “dependency”? Basic building block of Composer world is “package” and it is:
 
  - a folder (or file)
  - probably with PHP code
@@ -38,7 +38,7 @@ There is also special kind of [platform package](http://getcomposer.org/doc/02-l
 
 ### Manager
 
-Packages are not of much use somewhere out there. That is why from a starting point ("root" package) Composer will:
+Packages are not of much use somewhere out there. That is why from a starting point (“root” package) Composer will:
 
  - calculate its dependencies
  - download them (or retrieve from local cache)
@@ -72,9 +72,9 @@ Theory is no replacement for experience and there are already practical examples
 ### Updating for Composer
 
  - [TLC Transients](/case-study/tlc-transients) library by Mark Jaquith
- - [scbFramework](/case-study/scbframework) library by Cristi "scribu" Burcă
+ - [scbFramework](/case-study/scbframework) library by Cristi “scribu” Burcă
 
 ### Developing for Composer
 
- - [Laps](/case-study/laps) plugin by Andrey "Rarst" Savchenko
- - [Fragment Cache](/case-study/fragment-cache) plugin by Andrey "Rarst" Savchenko
+ - [Laps](/case-study/laps) plugin by Andrey “Rarst” Savchenko
+ - [Fragment Cache](/case-study/fragment-cache) plugin by Andrey “Rarst” Savchenko

@@ -1,17 +1,17 @@
 <!---
 title = About the Site
-description = Info about the "Composer in WordPress site"
+description = Info about the “Composer in WordPress site”
 -->
 
-This site had been created by [Andrey "Rarst" Savchenko](http://www.Rarst.net), who became Composer evangelist in WordPress circles after he got bitten by wild Composer in early 2013 (unconfirmed rumor).
+This site had been created by [Andrey “Rarst” Savchenko](http://www.Rarst.net), who became Composer evangelist in WordPress circles after he got bitten by wild Composer in early 2013 (unconfirmed rumor).
 
-He has been asked "but where can I read about all of that!?" few too many times and now this is it.
+He has been asked “but where can I read about all of that!?” few too many times and now this is it.
 
 ## Contact
 
-This site's goal is to provide and point to any information you could possibly need about using Composer with WordPress projects.
+This site’s goal is to provide and point to any information you could possibly need about using Composer with WordPress projects.
 
-So don't hesitate to contact with questions or suggestions!
+So don’t hesitate to contact with questions or suggestions!
 
  - pull request to [GitHub/Rarst/composer-in-wp](https://github.com/Rarst/composer-in-wp) or [open issue](https://github.com/Rarst/composer-in-wp/issues)
  - tweet [@Rarst](https://twitter.com/Rarst)
@@ -42,4 +42,4 @@ So don't hesitate to contact with questions or suggestions!
  - **2013-08**
   - updated repos and guide to using core installer
  - **2013-07**
-  - it's alive!
+  - it’s alive!
