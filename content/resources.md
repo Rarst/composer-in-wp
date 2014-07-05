@@ -28,7 +28,7 @@ Compilation of links to online resources about, for, and near Composer.
  - [composer/installers](https://github.com/composer/installers) ([Packagist](https://packagist.org/packages/composer/installers)) — custom installer for frameworks’ paths (including WordPress extensions)
  - [johnpbloch/wordpress](https://github.com/johnpbloch/wordpress) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress)) — automated fork of WordPress core, adding Composer support
  - [johnpbloch/wordpress-core-installer](https://github.com/johnpbloch/wordpress-core-installer) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress-core-installer)) — custom installer for WordPress core to cleanly customize subdirectory path
- - [rarst/locate-vendor](https://bitbucket.org/Rarst/locate-vendor) (Composer repository `http://rarst.net`) — small experimental helper to resolve vendor folder location 
+ - [rarst/locate-vendor](https://bitbucket.org/Rarst/locate-vendor) ([Packagist](https://packagist.org/packages/rarst/locate-vendor)) — small experimental helper to resolve vendor folder location
 
 ## People
 
