@@ -3,10 +3,11 @@ title = Laps
 subtitle = case study
 -->
 
- - development repository : [Bitbucket](https://bitbucket.org/Rarst/laps)
- - Composer repository : Satis at [rarst.net](http://rarst.net/packages.json)
+ - development repository : [GitHub](https://github.com/Rarst/laps)
+ - Composer repository : [Packagist](https://packagist.org/packages/rarst/laps)
  - versioning : semantic
  - dependencies : [Symfony Stopwatch](http://symfony.com/doc/current/components/stopwatch.html), [mustache.php](https://github.com/bobthecow/mustache.php)
+ - development dependencies : [Twitter Bootstrap](http://getbootstrap.com/)
 
 ## Development
 
@@ -16,41 +17,41 @@ Laps is light profiler plugin for WordPress. It was developed exclusively as Com
 
 Stopwatch component from [Symfony framework](http://symfony.com/) and PHP port of [mustache templating language ](http://mustache.github.io/) are required as Composer dependencies and used for timing events and templating output respectively.
 
+Composer package for Twitter Bootstrap is required as development dependency to make use of importing styles and scripts from its source.
+
 `composer/installers` package and `wordpress-plugin` type are declared for [path customization](/recipe/paths-control) when plugin is installed as part of [whole site stack](/recipe/site-stack).
-
-Package is not listed on Packagist, but is available from public Satis-generated repository and can be installed via:
-
-    composer create-project rarst/laps --repository-url=http://rarst.net
 
 ## composer.json
 
-	{
-	        "name"       : "rarst/laps",
-	        "description": "Light WordPress profiler.",
-	        "keywords"   : ["wordpress", "performance"],
-	        "type"       : "wordpress-plugin",
-	        "homepage"   : "https://bitbucket.org/Rarst/laps",
-	        "license"    : "MIT",
-	        "authors"    : [
-	                {
-	                        "name"    : "Andrey Savchenko",
-	                        "email"   : "contact@rarst.net",
-	                        "homepage": "http://www.Rarst.net/"
-	                }
-	        ],
-	        "support"    : {
-	                "issues": "https://bitbucket.org/Rarst/laps/issues",
-	                "source": "https://bitbucket.org/Rarst/laps/src"
-	        },
-	        "autoload"   : {
-	                "classmap": ["src/"]
-	        },
-	        "require"    : {
-	                "composer/installers": "~1.0",
-	                "symfony/stopwatch"  : "~2.2.0",
-	                "mustache/mustache"  : "~2.3.0"
-	        }
-	}
+    {
+        "name"       : "rarst/laps",
+        "description": "Light WordPress profiler.",
+        "keywords"   : ["wordpress", "performance"],
+        "type"       : "wordpress-plugin",
+        "homepage"   : "https://github.com/Rarst/laps",
+        "license"    : "MIT",
+        "authors"    : [
+            {
+                "name"    : "Andrey Savchenko",
+                "email"   : "contact@rarst.net",
+                "homepage": "http://www.Rarst.net/"
+            }
+        ],
+        "support"    : {
+            "issues": "https://github.com/Rarst/laps/issues"
+        },
+        "autoload"   : {
+            "classmap": ["src/"]
+        },
+        "require"    : {
+            "composer/installers": "~1.0",
+            "symfony/stopwatch"  : "~2.4",
+            "mustache/mustache"  : "~2.4"
+        },
+        "require-dev": {
+            "twbs/bootstrap": "~3.2"
+        }
+    }
 
 ## Documentation Links
 
