@@ -12,51 +12,49 @@ It would depend on your project what exactly to put in a package and how to conf
 
 For example it can be something like this ([original gist](https://gist.github.com/Rarst/5300767)) :
 
-	{
-		"name"        : "rarst/install-test",
-		"description" : "Test project for WordPress stack via Composer",
-		"authors"     : [
-			{
-				"name"    : "Andrey Savchenko",
-				"email"   : "contact@rarst.net",
-				"homepage": "http://www.Rarst.net/"
-			}
-		],
-		"type"        : "project",
-		"repositories": [
-			{
-				"type": "composer",
-				"url" : "http://wpackagist.org"
-			},
-			{
-				"type": "composer",
-				"url" : "http://rarst.net"
-			}
-		],
-		"config"      : {
-			"vendor-dir": "wp-content/vendor"
-		},
-		"require"     : {
-			"rarst/wordpress"          : ">=3.6",
-			"rarst/hybrid-wing"        : "*@dev",
-			"rarst/fragment-cache"     : "~1.0",
-			"wpackagist/wp-super-cache": "*"
-		},
-		"require-dev" : {
-			"rarst/laps"                           : "~1.0",
-			"wpackagist/a-fresher-cache"           : "*",
-			"wpackagist/core-control"              : "*",
-			"wpackagist/monster-widget"            : "*",
-			"wpackagist/regenerate-thumbnails"     : "*",
-			"wpackagist/theme-check"               : "*",
-			"wpackagist/toolbar-theme-switcher"    : "*",
-			"wpackagist/user-switching"            : "*",
-			"wpackagist/wcm-user-language-switcher": "*"
-		},
-		"extra"       : {
-			"wordpress-install-dir": "wp"
-		}
-	}
+    {
+        "name"        : "rarst/install-test",
+        "description" : "Test project for WordPress stack via Composer",
+        "authors"     : [
+            {
+                "name"    : "Andrey Savchenko",
+                "email"   : "contact@rarst.net",
+                "homepage": "http://www.Rarst.net/"
+            }
+        ],
+        "type"        : "project",
+        "repositories": [
+            {
+                "type": "composer",
+                "url" : "http://wpackagist.org"
+            },
+            {
+                "type": "composer",
+                "url" : "http://rarst.net"
+            }
+        ],
+        "config"      : {
+            "vendor-dir": "wp-content/vendor"
+        },
+        "require"     : {
+            "johnpbloch/wordpress"            : ">=3.9",
+            "rarst/fragment-cache"            : "~1.0",
+            "wpackagist-plugin/wp-super-cache": "*"
+        },
+        "require-dev" : {
+            "rarst/laps"                                  : "~1.2",
+            "rarst/toolbar-theme-switcher"                : "~1.2",
+            "wpackagist-plugin/a-fresher-cache"           : "*",
+            "wpackagist-plugin/core-control"              : "*",
+            "wpackagist-plugin/monster-widget"            : "*",
+            "wpackagist-plugin/theme-check"               : "*",
+            "wpackagist-plugin/user-switching"            : "*",
+            "wpackagist-plugin/wcm-user-language-switcher": "*"
+        },
+        "extra"       : {
+            "wordpress-install-dir": "wp"
+        }
+    }
 
 ## Breakdown
 
