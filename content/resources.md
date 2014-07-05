@@ -21,7 +21,6 @@ Compilation of links to online resources about, for, and near Composer.
 
  - [Packagist](https://packagist.org/) ([GitHub](https://github.com/composer/packagist))
  - [WordPress Packagist](http://wpackagist.org/) ([GitHub](https://github.com/outlandishideas/wpackagist))
- - [Rarst.net/packages.json](http://www.rarst.net/packages.json) — example custom repository generated with Satis
 
 ## Packages
 
