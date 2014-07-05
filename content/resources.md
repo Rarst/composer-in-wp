@@ -41,8 +41,7 @@ Compilation of links to online resources about, for, and near Composer.
 
 ## Tools
 
- - [Satis](https://github.com/composer/satis) ([Packagist](https://packagist.org/packages/composer/satis)) — static Composer repository generator 
- - [Pirium](http://pirum.sensiolabs.org/) — PEAR channel / Composer repository generator
+ - [Satis](https://github.com/composer/satis) ([Packagist](https://packagist.org/packages/composer/satis)) — static Composer repository generator
 
 ## IDE
 
