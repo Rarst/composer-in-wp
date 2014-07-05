@@ -6,7 +6,7 @@ description = How to create Composer package for WordPress core
 
 <div class="alert alert-info">You can skip this and use <a href="https://packagist.org/packages/johnpbloch/wordpress"><code>johnpbloch/wordpress</code></a> package.</div>
 
-Composer works best with code accompanied by `composer.json` and that is something WordPress core hadn't adopted yet. There is a bit of tinkering involved to create shim package for core.
+Composer works best with code accompanied by `composer.json` and that is something WordPress core hadn’t adopted yet. There is a bit of tinkering involved to create shim package for core.
 
 ## Create Custom Package
 
@@ -42,7 +42,7 @@ Package for a specific release version of WordPress can be defined like this:
     	}
     }
 
- - for name I am declaring it in my own `rarst/*` vendor namespace, so it doesn't conflict with anything
+ - for name I am declaring it in my own `rarst/*` vendor namespace, so it doesn’t conflict with anything
  - `wordpress-core` type and `johnpbloch/wordpress-core-installer` dependency serve to allow clean path customization (otherwise Composer will try to nest core in a vendor directory), see [site stack recipe](/recipe/site-stack) for details
  - distribution points to simple direct download from official site
  - source points to the release tag at official GitHub mirror, although original Subversion repository would work as well
