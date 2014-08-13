@@ -106,6 +106,16 @@ After install the project directory will have the following content:
 
 In one command we have neat and nearly complete subdirectory install! The example package we used only lacks properly set up `wp-config.php` and `index.php` for complete WordPress site.
 
+#### Autoload
+
+Since our whole stack shares single Composer–driven autoload for classes — we need to include it into WordPress boot process.
+
+There is no native WordPress convention for autoload and in practice `wp-config.php` is most appropriate place to set it up.
+
+For example it might look like this at the top of `wp-config.php` (created at the root, one level above core subdirectory):
+
+    require __DIR__ . '/wp-content/vendor/autoload.php';
+
 ## Documentation Links
 
  - [package properties](http://getcomposer.org/doc/04-schema.md#properties)
