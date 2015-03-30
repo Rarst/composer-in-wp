@@ -35,6 +35,9 @@ So don’t hesitate to contact with questions or suggestions!
 
 ## Changelog
 
+ - **2015-03**
+  - updated scripts and styles
+  - added WordPress SEO case study
  - **2014-07**
   - updated scripts and styles
   - updated resources
