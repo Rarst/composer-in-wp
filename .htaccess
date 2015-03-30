@@ -1,3 +1,5 @@
+AddHandler application/x-httpd-php55 .php .php5 .php4 .php3
+
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_URI} "!(^|/)\.well-known/([^./]+./?)+$" [NC]
     RewriteCond %{SCRIPT_FILENAME} -d [OR]
@@ -15,10 +17,8 @@
     </IfModule>
 
     <IfModule mod_mime.c>
-        AddEncoding gzip              svgz
+        AddEncoding gzip svgz
     </IfModule>
-
-    <IfModule mod_filter.c>
         AddOutputFilterByType DEFLATE "application/atom+xml" \
                                       "application/javascript" \
                                       "application/json" \
@@ -40,8 +40,6 @@
                                       "text/plain" \
                                       "text/vtt" \
                                       "text/x-component" \
-                                      "text/xml"
-    </IfModule>
 
 </IfModule>
 
