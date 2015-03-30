@@ -27,6 +27,10 @@ code {
     background-color: #fdf6e3;
 }
 
+.navbar-static-top {
+    border-bottom: none;
+}
+
 .footer {
 	margin-bottom: 10px;
 	padding-top: 10px;
