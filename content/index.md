@@ -71,6 +71,7 @@ Theory is no replacement for experience and there are already practical examples
 
 ### Updating for Composer
 
+ - [WordPress SEO](/case-study/wordpress-seo) plugin by team Yoast
  - [TLC Transients](/case-study/tlc-transients) library by Mark Jaquith
  - [scbFramework](/case-study/scbframework) library by Cristi “scribu” Burcă
 
