@@ -2,4 +2,3 @@ vendor
 \.idea
 cache
 local-settings.php
-composer.lock
