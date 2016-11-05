@@ -26,7 +26,7 @@ For example it can be something like this ([original gist](https://gist.github.c
         "repositories": [
             {
                 "type": "composer",
-                "url" : "http://wpackagist.org"
+                "url" : "https://wpackagist.org"
             },
             {
                 "type": "composer",
