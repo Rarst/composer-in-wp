@@ -12,7 +12,7 @@ subtitle = case study
 
 ## Changes
 
-TLC Transients library is wrapper for WordPress Trasients API, which provides additional functionality for use in extensions.
+TLC Transients library is wrapper for the WordPress Transients API, which provides additional functionality for use in extensions.
 
 Library was originally single monolithic file with class/function definitions and bootstrap code. For Composer support code was reorganized by breaking out definitions into individual files.
 
