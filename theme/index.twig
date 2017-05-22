@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% include 'title.twig' %}
+    {% block title %}
+    <title>{% if page.title is defined and not is_front_page %}{{ page.title }} | {% endif %}{{ app.site_title }}</title>
+    {% endblock %}
     {% if page.description is defined %}
         <meta name="description" content="{{ page.description }}">
     {% endif %}
@@ -98,7 +100,23 @@
 {#{{ "now"|date("c") }}#}
 <div class="container">
     <div id="pjax-container">
-        {% include 'content.twig' %}
+        {% block content %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header">
+                    <h1>{{ page.title }}{% if page.subtitle is defined %} <small>{{ page.subtitle }}</small>{% endif %}</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <ul id="toc" class="nav nav-pills nav-stacked"></ul>
+            </div>
+            <div class="col-md-9">
+                {{ page.content|raw }}
+            </div>
+        </div>
+        {% endblock %}
     </div>
 
     <div class="footer row">
