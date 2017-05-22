@@ -16,6 +16,6 @@
         "issues": "https://github.com/Rarst/composer-in-wp/issues"
     },
     "require"     : {
-        "rarst/seam": "dev-master"
+        "rarst/seam": "^0.3"
     }
 }
