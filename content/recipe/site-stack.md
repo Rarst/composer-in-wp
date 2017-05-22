@@ -1,8 +1,8 @@
-<!---
-title = Site Stack
-subtitle = recipe
-description = composer.json example for whole WordPress site Composer stack
--->
+---
+title: Site Stack
+subtitle: recipe
+description: composer.json example for whole WordPress site Composer stack
+---
 
 The whole site stack package is end game of using Composer with WordPress.
 

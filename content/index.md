@@ -1,7 +1,7 @@
-<!---
-title = Your Guide to Composer in WordPress
-description = Making use of Composer for WordPress sites and extensions
--->
+---
+title: Your Guide to Composer in WordPress
+description: Making use of Composer for WordPress sites and extensions
+---
 
 This site was asked for too many times to not happen. Think of it as unofficial companion to [Composer documentation](http://getcomposer.org/doc/) for WordPress developers.
 

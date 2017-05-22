@@ -1,7 +1,7 @@
-<!---
-title = Laps
-subtitle = case study
--->
+---
+title: Laps
+subtitle: case study
+---
 
  - development repository : [GitHub](https://github.com/Rarst/laps)
  - Composer repository : [Packagist](https://packagist.org/packages/rarst/laps)

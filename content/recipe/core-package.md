@@ -1,8 +1,8 @@
-<!---
-title = Core Package
-subtitle = recipe
-description = How to create Composer package for WordPress core
--->
+---
+title: Core Package
+subtitle: recipe
+description: How to create Composer package for WordPress core
+---
 
 <div class="alert alert-info text-center" markdown="1">You can skip this and use [`johnpbloch/wordpress`](https://packagist.org/packages/johnpbloch/wordpress) package.</div>
 

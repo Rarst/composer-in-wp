@@ -1,7 +1,7 @@
-<!---
-title = TLC Transients
-subtitle = case study
--->
+---
+title: TLC Transients
+subtitle: case study
+---
 
  - development repository : [GitHub](https://github.com/markjaquith/WP-TLC-Transients)
  - Composer repository : [Packagist](https://packagist.org/packages/markjaquith/wp-tlc-transients)

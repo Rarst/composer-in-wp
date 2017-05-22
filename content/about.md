@@ -1,7 +1,7 @@
-<!---
-title = About the Site
-description = Info about the “Composer in WordPress site”
--->
+---
+title: About the Site
+description: Info about the “Composer in WordPress site”
+---
 
 This site had been created by [Andrey “Rarst” Savchenko](http://www.Rarst.net), who became Composer evangelist in WordPress circles after he got bitten by wild Composer in early 2013 (unconfirmed rumor).
 

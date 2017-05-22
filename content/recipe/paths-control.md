@@ -1,8 +1,8 @@
-<!---
-title = Paths Control
-subtitle = recipe
-description = How to use composer/installers to control WordPress theme and plugin paths
--->
+---
+title: Paths Control
+subtitle: recipe
+description: How to use composer/installers to control WordPress theme and plugin paths
+---
 
 The default type of Composer package is `library`. Composer puts such packages in `vendor/[vendor]/[name]`, which does not fit typical WordPress directory layout well.
 

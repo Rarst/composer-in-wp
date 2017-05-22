@@ -1,7 +1,7 @@
-<!---
-title = Resources
-description = Links to resources about Composer and its integration with WordPress
--->
+---
+title: Resources
+description: Links to resources about Composer and its integration with WordPress
+---
 
 Compilation of links to online resources about, for, and near Composer.
 

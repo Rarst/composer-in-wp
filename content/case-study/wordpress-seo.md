@@ -1,7 +1,7 @@
-<!---
-title = WordPress SEO by Yoast
-subtitle = case study
--->
+---
+title: WordPress SEO by Yoast
+subtitle: case study
+---
 
  - development repository : [GitHub](https://github.com/Yoast/wordpress-seo)
  - Composer repository : [Packagist](https://packagist.org/packages/yoast/wordpress-seo)

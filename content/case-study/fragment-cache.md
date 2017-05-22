@@ -1,7 +1,7 @@
-<!---
-title = Fragment Cache
-subtitle = case study
--->
+---
+title: Fragment Cache
+subtitle: case study
+---
 
  - development repository : [GitHub](https://github.com/Rarst/fragment-cache)
  - Composer repository : [Packagist](https://packagist.org/packages/rarst/fragment-cache)

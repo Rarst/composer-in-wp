@@ -1,7 +1,7 @@
-<!---
-title = scbFramework
-subtitle = case study
--->
+---
+title: scbFramework
+subtitle: case study
+---
 
  - development repository : [GitHub](https://github.com/scribu/wp-scb-framework)
  - Composer repository : [Packagist](https://packagist.org/packages/scribu/scb-framework)
