@@ -41,10 +41,10 @@ Compilation of links to online resources about, for, and near Composer.
 ## Tools
 
  - [Satis](https://github.com/composer/satis) ([Packagist](https://packagist.org/packages/composer/satis)) — static Composer repository generator
- - [Toran Proxy](https://toranproxy.com/) — Packagist &amp; GitHub proxy for more reliable and faster deployments
+ - [Private Packagist](https://packagist.com/) — Composer package archive as a service for private source code and redundant infrastructure
+ - [Release Belt](https://github.com/Rarst/release-belt) — Composer repository implementation to easily host ZIP release archives. 
 
 ## IDE
 
  - [PhpStorm](http://www.jetbrains.com/phpstorm/)
   - [Composer support](http://www.jetbrains.com/phpstorm/webhelp/composer.html)
-  - WP extension [`composer.json` file template](https://gist.github.com/Rarst/5462962)

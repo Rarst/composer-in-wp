@@ -15,7 +15,6 @@ So don’t hesitate to contact with questions or suggestions!
 
  - pull request to [GitHub/Rarst/composer-in-wp](https://github.com/Rarst/composer-in-wp) or [open issue](https://github.com/Rarst/composer-in-wp/issues)
  - tweet [@Rarst](https://twitter.com/Rarst)
- - email [contact@rarst.net](mailto:contact@rarst.net)
  - drop by [The Loop](http://chat.stackexchange.com/rooms/6/the-loop) chat room at [WPSE](http://wordpress.stackexchange.com/)
 
 ## Internals
@@ -34,7 +33,8 @@ So don’t hesitate to contact with questions or suggestions!
   - [jsDelivr](http://www.jsdelivr.com/)
 
 ## Changelog
-
+ - **2017-12**
+  - updated resources page (added Private Packagist, Release Belt)
  - **2015-03**
   - updated scripts and styles
   - added WordPress SEO case study
