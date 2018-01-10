@@ -28,62 +28,64 @@ To retain compatibility to PHP 5.2 environment special loader is required as dep
 
 ## composer.json
 
-    {
-        "name": "yoast/wordpress-seo",
-        "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the WordPress SEO plugin by Yoast.",
-        "keywords": [
-            "wordpress",
-            "seo"
-        ],
-        "homepage": "https://yoast.com/wordpress/plugins/seo/",
-        "license": "GPL-2.0+",
-        "authors": [
-            {
-                "name": "Team Yoast",
-                "email": "support@yoast.com",
-                "homepage": "https://yoast.com"
-            }
-        ],
-        "type": "wordpress-plugin",
-        "support": {
-            "issues": "https://github.com/Yoast/wordpress-seo/issues",
-            "forum": "https://wordpress.org/support/plugin/wordpress-seo",
-            "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
-            "source": "https://github.com/Yoast/wordpress-seo"
-        },
-        "require": {
-            "composer/installers": "~1.0",
-            "yoast/license-manager": "dev-master",
-            "yoast/i18n-module": "dev-master",
-            "xrstf/composer-php52": "^1.0.17"
-        },
-        "require-dev": {
-            "yoast/yoastcs": "dev-master"
-        },
-        "minimum-stability": "dev",
-        "autoload": {
-            "classmap": [
-                "admin/",
-                "frontend/",
-                "inc/"
-            ]
-        },
-        "scripts": {
-            "config-yoastcs": [
-                "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs",
-                "\"vendor/bin/phpcs\" --config-set default_standard Yoast"
-            ],
-            "post-install-cmd": [
-                "xrstf\\Composer52\\Generator::onPostInstallCmd"
-            ],
-            "post-update-cmd": [
-                "xrstf\\Composer52\\Generator::onPostInstallCmd"
-            ],
-            "post-autoload-dump": [
-                "xrstf\\Composer52\\Generator::onPostInstallCmd"
-            ]
+```json
+{
+    "name": "yoast/wordpress-seo",
+    "description": "Improve your WordPress SEO: Write better content and have a fully optimized WordPress site using the WordPress SEO plugin by Yoast.",
+    "keywords": [
+        "wordpress",
+        "seo"
+    ],
+    "homepage": "https://yoast.com/wordpress/plugins/seo/",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Team Yoast",
+            "email": "support@yoast.com",
+            "homepage": "https://yoast.com"
         }
+    ],
+    "type": "wordpress-plugin",
+    "support": {
+        "issues": "https://github.com/Yoast/wordpress-seo/issues",
+        "forum": "https://wordpress.org/support/plugin/wordpress-seo",
+        "wiki": "https://github.com/Yoast/wordpress-seo/wiki",
+        "source": "https://github.com/Yoast/wordpress-seo"
+    },
+    "require": {
+        "composer/installers": "~1.0",
+        "yoast/license-manager": "dev-master",
+        "yoast/i18n-module": "dev-master",
+        "xrstf/composer-php52": "^1.0.17"
+    },
+    "require-dev": {
+        "yoast/yoastcs": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": [
+            "admin/",
+            "frontend/",
+            "inc/"
+        ]
+    },
+    "scripts": {
+        "config-yoastcs": [
+            "\"vendor/bin/phpcs\" --config-set installed_paths ../../../vendor/wp-coding-standards/wpcs,../../../vendor/yoast/yoastcs",
+            "\"vendor/bin/phpcs\" --config-set default_standard Yoast"
+        ],
+        "post-install-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-update-cmd": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ],
+        "post-autoload-dump": [
+            "xrstf\\Composer52\\Generator::onPostInstallCmd"
+        ]
     }
+}
+```
 
 ## Documentation Links
 

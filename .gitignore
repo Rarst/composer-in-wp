@@ -1,4 +1,4 @@
-vendor
 \.idea
-cache
-local-settings.php
+_site
+.sass-cache
+.jekyll-metadata
