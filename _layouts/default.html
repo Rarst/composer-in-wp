@@ -28,7 +28,7 @@
     </script>
     {% endif %}
 </head>
-<body data-spy="scroll" data-target="#toc">
+<body>
 <nav class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
         <div class="row">
@@ -79,22 +79,19 @@
 </nav>
 
 <div class="container">
-    <div id="pjax-container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page-header">
-                    <h1>{{ page.title }}{% if page.subtitle %} <small>{{ page.subtitle }}</small>{% endif %}</h1>
-                </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>{{ page.title }}{% if page.subtitle %} <small>{{ page.subtitle }}</small>{% endif %}</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <!--<ul id="toc" class="nav nav-pills nav-stacked"></ul>-->
-                {% include toc.html html=content id='toc' class='nav.nav-pills.nav-stacked' h_max=2 %}
-            </div>
-            <div class="col-md-9">
-                {{ content }}
-            </div>
+    </div>
+    <div class="row">
+        <div id="toc-sticky" class="col-md-3">
+            {% include toc.html html=content id='toc' class='nav.nav-pills.nav-stacked' h_max=2 %}
+        </div>
+        <div class="col-md-9">
+            {{ content }}
         </div>
     </div>
 
@@ -107,6 +104,5 @@
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/assets/scripts.js"></script>
 </body>
 </html>

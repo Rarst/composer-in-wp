@@ -2,6 +2,16 @@ body {
     font-size: 20px;
 }
 
+@media (min-width:992px) {
+
+  #toc-sticky {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
+    top: 15px;
+  }
+}
+
 #toc {
 	margin-bottom: 30px;
 	padding: 0;
