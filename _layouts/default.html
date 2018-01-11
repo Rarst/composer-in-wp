@@ -3,13 +3,12 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title and page.frontpage != true %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
-    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}">{% endif %}
-    <!--<meta name="robots" content="{{ page.robots }}">-->
+    {%- if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}">{% endif %}
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/readable/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/style.css" rel="stylesheet">
 
-    {% if jekyll.environment == 'production' %}
+    {%- if jekyll.environment == 'production' %}
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
