@@ -50,9 +50,9 @@ Composer thrives on compatibility and packages can come from:
  - [Composer repositories](http://getcomposer.org/doc/05-repositories.md#composer)
  - direct downloads
  - version control systems
-  - [Subversion](http://subversion.apache.org/)
-  - [Git](http://git-scm.com/) (+ [GitHub](https://github.com/) downloads)
-  - [Mercurial](http://mercurial.selenic.com/) (+ [Bitbucket](https://bitbucket.org/) downloads)
+   - [Subversion](http://subversion.apache.org/)
+   - [Git](http://git-scm.com/) (+ [GitHub](https://github.com/) downloads)
+   - [Mercurial](http://mercurial.selenic.com/) (+ [Bitbucket](https://bitbucket.org/) downloads)
  - [PEAR](http://pear.php.net/) channels
  - [artifacts](http://getcomposer.org/doc/05-repositories.md#artifact) (local ZIP archives)
 
