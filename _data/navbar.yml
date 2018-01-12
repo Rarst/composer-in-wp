@@ -1,0 +1,40 @@
+menu:
+ - anchor: Recipes&hellip;
+   url: /#recipes
+   dropdown:
+    - anchor: Core Package
+      url: /recipe/core-package
+
+    - anchor: Paths Control
+      url: /recipe/paths-control
+
+    - anchor: Site Stack
+      url: /recipe/site-stack
+
+ - anchor: Case Studies&hellip;
+   url: /#case-studies
+   dropdown:
+    - header: Updated
+
+    - anchor: WordPress SEO
+      url: /case-study/wordpress-seo
+
+    - anchor: TLC Transients
+      url: /case-study/tlc-transients
+
+    - anchor: scbFramework
+      url: /case-study/scbframework
+
+    - header: Developed
+
+    - anchor: Laps
+      url: /case-study/laps
+
+    - anchor: Fragment Cache
+      url: /case-study/fragment-cache
+
+ - anchor: Resources
+   url: /resources
+
+ - anchor: About
+   url: /about

@@ -13,54 +13,8 @@
     {%- if jekyll.environment == 'production' %}{% include google-analytics.html %}{% endif %}
 </head>
 <body>
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
 
-                    <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title }}</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                Recipes&hellip;
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a href="/recipe/core-package">Core Package</a></li>
-                                <li><a href="/recipe/paths-control">Paths Control</a></li>
-                                <li><a href="/recipe/site-stack">Site Stack</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                Case Studies&hellip;
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-header">Updated</li>
-                                <li><a href="/case-study/wordpress-seo">WordPress SEO</a></li>
-                                <li><a href="/case-study/tlc-transients">TLC Transients</a></li>
-                                <li><a href="/case-study/scbframework">scbFramework</a></li>
-                                <li class="dropdown-header">Developed</li>
-                                <li><a href="/case-study/laps">Laps</a></li>
-                                <li><a href="/case-study/fragment-cache">Fragment Cache</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="/resources">Resources</a></li>
-                        <li><a href="/about">About</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
+{% include navbar.html %}
 
 <div class="container">
     <div class="row">
