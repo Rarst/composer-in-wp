@@ -1,5 +1,6 @@
 ---
 layout: none
+sitemap: false
 ---
 <!DOCTYPE HTML>
  
