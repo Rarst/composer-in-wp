@@ -6,7 +6,7 @@ subtitle: case study
  - development repository : [GitHub](https://github.com/Rarst/fragment-cache)
  - Composer repository : [Packagist](https://packagist.org/packages/rarst/fragment-cache)
  - versioning : semantic
- - dependencies : [Pimple](http://pimple.sensiolabs.org/), [TLC Transients](/_pages/case-study/tlc-transients)
+ - dependencies : [Pimple](http://pimple.sensiolabs.org/), [TLC Transients](/case-study/tlc-transients)
  - suggests : [Update Blocker](https://github.com/Rarst/update-blocker)
 
 ## Development
@@ -19,7 +19,7 @@ Pimple and TLC Transients libraries are required as Composer dependencies. Main 
 
 [Update Blocker](https://github.com/Rarst/update-blocker) plugin is suggested to prevent invalid update of Fragment Cache from official WordPress repository.
 
-`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/_pages/recipe/paths-control) when plugin is installed as part of [whole site stack](/_pages/recipe/site-stack).
+`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/recipe/paths-control) when plugin is installed as part of [whole site stack](/recipe/site-stack).
 
 ## composer.json
 

@@ -20,18 +20,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://composer.rarst.net" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
-collections:
-  pages:
-    output: true
-    permalink: /:path
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-
 # Build settings
 markdown: kramdown
 # theme: minima

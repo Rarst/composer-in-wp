@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: none
 sitemap: false
 ---
 <!DOCTYPE HTML>

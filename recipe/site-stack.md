@@ -60,7 +60,7 @@ For example it can be something like this ([original gist](https://gist.github.c
  - `repositories` declare [WordPress Packagist](http://wpackagist.org/) proxy for Composer access to official WordPress plugin repository
  - `vendor` directory is relocated inside `wp-content`
  - WordPress core, custom theme and number of plugins are listed as dependencies, part of them as for optional development context
- - WordPress [core package](/_pages/recipe/core-package) is configured to go into `wp` subdirectory (using custom `wordpress-install-dir` configuration option of core installer, required by core package)
+ - WordPress [core package](/recipe/core-package) is configured to go into `wp` subdirectory (using custom `wordpress-install-dir` configuration option of core installer, required by core package)
 
 ## Installation
 

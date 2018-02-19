@@ -60,9 +60,9 @@ Composer thrives on compatibility and packages can come from:
 
 This site will provide you with information on how to:
 
- - [create package for WordPress core](/_pages/recipe/core-package)
- - [control plugins and themes paths](/_pages/recipe/paths-control)
- - [create whole site Composer package](/_pages/recipe/site-stack)
+ - [create package for WordPress core](/recipe/core-package)
+ - [control plugins and themes paths](/recipe/paths-control)
+ - [create whole site Composer package](/recipe/site-stack)
  
 
 ## Case Studies
@@ -71,11 +71,11 @@ Theory is no replacement for experience and there are already practical examples
 
 ### Updating for Composer
 
- - [WordPress SEO](/_pages/case-study/wordpress-seo) plugin by team Yoast
- - [TLC Transients](/_pages/case-study/tlc-transients) library by Mark Jaquith
- - [scbFramework](/_pages/case-study/scbframework) library by Cristi “scribu” Burcă
+ - [WordPress SEO](/case-study/wordpress-seo) plugin by team Yoast
+ - [TLC Transients](/case-study/tlc-transients) library by Mark Jaquith
+ - [scbFramework](/case-study/scbframework) library by Cristi “scribu” Burcă
 
 ### Developing for Composer
 
- - [Laps](/_pages/case-study/laps) plugin by Andrey “Rarst” Savchenko
- - [Fragment Cache](/_pages/case-study/fragment-cache) plugin by Andrey “Rarst” Savchenko
+ - [Laps](/case-study/laps) plugin by Andrey “Rarst” Savchenko
+ - [Fragment Cache](/case-study/fragment-cache) plugin by Andrey “Rarst” Savchenko

@@ -19,7 +19,7 @@ Stopwatch component from [Symfony framework](http://symfony.com/) and PHP port o
 
 Composer package for Twitter Bootstrap is required as development dependency to make use of importing styles and scripts from its source.
 
-`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/_pages/recipe/paths-control) when plugin is installed as part of [whole site stack](/_pages/recipe/site-stack).
+`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/recipe/paths-control) when plugin is installed as part of [whole site stack](/recipe/site-stack).
 
 ## composer.json
 

@@ -25,7 +25,7 @@ To make use of it your extension's `composer.json` should contain:
 
 Type can also be `wordpress-theme` and `wordpress-muplugin`.
 
-When used in root [site stack package](/_pages/recipe/site-stack) it would make packages go into `wp-content/*` directories as WordPress things usually do.
+When used in root [site stack package](/recipe/site-stack) it would make packages go into `wp-content/*` directories as WordPress things usually do.
 
 ## Customize paths
 

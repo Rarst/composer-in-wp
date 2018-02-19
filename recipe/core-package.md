@@ -44,7 +44,7 @@ Package for a specific release version of WordPress can be defined like this:
 ```
 
  - for name I am declaring it in my own `rarst/*` vendor namespace, so it doesn’t conflict with anything
- - `wordpress-core` type and `johnpbloch/wordpress-core-installer` dependency serve to allow clean path customization (otherwise Composer will try to nest core in a vendor directory), see [site stack recipe](/_pages/recipe/site-stack) for details
+ - `wordpress-core` type and `johnpbloch/wordpress-core-installer` dependency serve to allow clean path customization (otherwise Composer will try to nest core in a vendor directory), see [site stack recipe](/recipe/site-stack) for details
  - distribution points to simple direct download from official site
  - source points to the release tag at official GitHub mirror, although original Subversion repository would work as well
 
