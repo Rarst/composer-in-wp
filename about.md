@@ -29,6 +29,8 @@ So don’t hesitate to contact with questions or suggestions!
    - [BootstrapCDN](http://www.bootstrapcdn.com/)
 
 ## Changelog
+ - **2018-02**
+   - updates site stack recipe
  - **2018-01**
    - moved to GitHub Pages
  - **2017-12**

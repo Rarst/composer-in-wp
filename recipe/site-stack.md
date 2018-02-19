@@ -19,8 +19,7 @@ For example it can be something like this ([original gist](https://gist.github.c
     "authors"     : [
         {
             "name"    : "Andrey Savchenko",
-            "email"   : "contact@rarst.net",
-            "homepage": "http://www.Rarst.net/"
+            "homepage": "https://www.Rarst.net/"
         }
     ],
     "type"        : "project",
@@ -28,23 +27,19 @@ For example it can be something like this ([original gist](https://gist.github.c
         {
             "type": "composer",
             "url" : "https://wpackagist.org"
-        },
-        {
-            "type": "composer",
-            "url" : "http://rarst.net"
         }
     ],
     "config"      : {
         "vendor-dir": "wp-content/vendor"
     },
     "require"     : {
-        "johnpbloch/wordpress"            : ">=3.9",
-        "rarst/fragment-cache"            : "~1.0",
-        "wpackagist-plugin/wp-super-cache": "*"
+        "johnpbloch/wordpress"            : ">=4.9",
+        "rarst/fragment-cache"            : "^1.3",
+        "rarst/update-blocker"            : "^1.1"
     },
     "require-dev" : {
-        "rarst/laps"                                  : "~1.2",
-        "rarst/toolbar-theme-switcher"                : "~1.2",
+        "rarst/laps"                                  : "^1.4.4",
+        "rarst/toolbar-theme-switcher"                : "^1.5",
         "wpackagist-plugin/a-fresher-cache"           : "*",
         "wpackagist-plugin/core-control"              : "*",
         "wpackagist-plugin/monster-widget"            : "*",
@@ -62,9 +57,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 
  - name is within my `rarst/*` vendor namespace
  - `type` is set to `project` (rather than default `library`), it is mostly semantic hint that this is root package
- - `repositories` declare:
-   -  [WordPress Packagist](http://wpackagist.org/) proxy for Composer access to official WordPress plugin repository
-   -  my own Composer repository at [Rarst.net/packages.json](http://www.rarst.net/packages.json)
+ - `repositories` declare [WordPress Packagist](http://wpackagist.org/) proxy for Composer access to official WordPress plugin repository
  - `vendor` directory is relocated inside `wp-content`
  - WordPress core, custom theme and number of plugins are listed as dependencies, part of them as for optional development context
  - WordPress [core package](/recipe/core-package) is configured to go into `wp` subdirectory (using custom `wordpress-install-dir` configuration option of core installer, required by core package)
@@ -81,7 +74,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 Run:
 
 ```bash
-composer create-project rarst/install-test wordpress dev-master --repository-url=http://rarst.net --prefer-dist
+composer create-project rarst/install-test wordpress dev-master --repository-url=https://www.rarst.net --prefer-dist
 ```
 
 This will tell Composer to create project:
@@ -89,7 +82,7 @@ This will tell Composer to create project:
  - from `rarst/install-test` package
  - in `wordpress` directory
  - at `dev-master` version
- - using custom [`rarst.net/packages.json`](http://rarst.net/packages.json) Composer repository
+ - using custom [`rarst.net/packages.json`](https://www.rarst.net/packages.json) Composer repository
  - favor direct downloads of packages over cloning from version control
 
 ### Result
@@ -98,19 +91,31 @@ After install the project directory will have the following content:
 
  - `wp` WordPress core
  - `wp-content`
-  - `plugins`
+   - `plugins`
      - packages of `wordpress-plugin` type 
-  - `themes`
+   - `themes`
      - packages of `wordpress-theme` type 
-  - `vendor`
+   - `vendor`
      - packages of `library` type
      - `autoload.php` combined class autoload file for all packages
  - `composer.json` project file we ran install for
  - `composer.lock` file with exact current state of packages
+ - `wp-config.php` was not created by this example, but should be placed here
 
 In one command we have neat and nearly complete subdirectory install! The example package we used only lacks properly set up `wp-config.php` and `index.php` for complete WordPress site.
 
-#### Autoload
+## WordPress configuration
+
+### Directories
+
+Notably we made changes to the default WordPress directory structure, which you might be used to. This enables us to update parts of it separately, without worry that core update erases content packages inside of it.
+
+This is supported natively by WordPress configuration, see documentation in Codex:
+
+1. [Giving WordPress Its Own Directory](https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory)
+2. [Moving wp-content folder](https://codex.wordpress.org/Editing_wp-config.php#Moving_wp-content_folder) 
+
+### Autoload
 
 Since our whole stack shares single Composer–driven autoload for classes — we need to include it into WordPress boot process.
 
