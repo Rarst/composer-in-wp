@@ -22,7 +22,7 @@ Additionally [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) rul
 `classmap` autoload type is used for classes, since files adhere to WordPress naming convention and need to be handled by static scan on install.
 To retain compatibility to PHP 5.2 environment special loader is required as dependency and run via scripts to generate compatible version. 
 
-`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/recipe/paths-control) when plugin is installed as part of [whole site stack](/recipe/site-stack).
+`composer/installers` package and `wordpress-plugin` type are declared for [path customization](/_pages/recipe/paths-control) when plugin is installed as part of [whole site stack](/_pages/recipe/site-stack).
 
 `scripts` are used to automate configuration of coding style and trigger builds of special autoloader.
 
