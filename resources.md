@@ -38,6 +38,11 @@ Compilation of links to online resources about, for, and near Composer.
  - [John P Bloch](http://johnpbloch.com/) ([@johnpbloch](https://twitter.com/johnpbloch)) — WordPress core installer developer
  - [#ComposerPHP](https://twitter.com/search/%23ComposerPHP) on Twitter
 
+## Stacks
+
+ - [WordPlate](https://wordplate.github.io/)
+ - [Bedrock](https://roots.io/bedrock/)
+
 ## Tools
 
  - [Satis](https://github.com/composer/satis) ([Packagist](https://packagist.org/packages/composer/satis)) — static Composer repository generator
