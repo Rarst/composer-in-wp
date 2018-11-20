@@ -34,7 +34,6 @@ Composer package for Twitter Bootstrap is required as development dependency to 
     "authors"    : [
         {
             "name"    : "Andrey Savchenko",
-            "email"   : "contact@rarst.net",
             "homepage": "https://www.rarst.net/"
         }
     ],

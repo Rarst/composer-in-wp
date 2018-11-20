@@ -34,7 +34,6 @@ Pimple and TLC Transients libraries are required as Composer dependencies. Main 
     "authors"     : [
         {
             "name"    : "Andrey Savchenko",
-            "email"   : "contact@rarst.net",
             "homepage": "https://www.rarst.net/"
         }
     ],
