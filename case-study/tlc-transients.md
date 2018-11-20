@@ -48,5 +48,5 @@ Bootstrap code includes definitions explicitly (if Composer autoload is not used
 
 ## Documentation Links
 
- - [autoload `classmap`](http://getcomposer.org/doc/04-schema.md#classmap)
- - [autoload `files`](http://getcomposer.org/doc/04-schema.md#files)
+ - [autoload `classmap`](https://getcomposer.org/doc/04-schema.md#classmap)
+ - [autoload `files`](https://getcomposer.org/doc/04-schema.md#files)

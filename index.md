@@ -3,11 +3,11 @@ title: Your Guide to Composer in WordPress
 excerpt: Making use of Composer for WordPress sites and extensions
 frontpage: true
 ---
-This site was asked for too many times to not happen. Think of it as unofficial companion to [Composer documentation](http://getcomposer.org/doc/) for WordPress developers.
+This site was asked for too many times to not happen. Think of it as unofficial companion to [Composer documentation](https://getcomposer.org/doc/) for WordPress developers.
 
 ### Prerequisites
 
-Install Composer by following instructions in documentation for [*nix](http://getcomposer.org/doc/00-intro.md#installation-nix) or [Windows](http://getcomposer.org/doc/00-intro.md#installation-windows).
+Install Composer by following instructions in documentation for [*nix](https://getcomposer.org/doc/00-intro.md#installation-nix) or [Windows](https://getcomposer.org/doc/00-intro.md#installation-windows).
 
 ## Why Bother
 
@@ -22,7 +22,7 @@ So what is “dependency”? Basic building block of Composer world is “packag
  - a folder (or file)
  - probably with PHP code
  - preferably with `composer.json` file
- - preferably [semantically versioned](http://semver.org/)
+ - preferably [semantically versioned](https://semver.org/)
 
 So pretty much anything can be package. Packages preferably contain information that Composer can read and process. That information can include which other packages at which versions are required as dependencies.
 
@@ -34,7 +34,7 @@ In WordPress world Composer package can be:
 
 It also opens up a way to depend on (and share) generic PHP libraries, without embedding their sources.
 
-There is also special kind of [platform package](http://getcomposer.org/doc/02-libraries.md#platform-packages) dependency. It allows to depend on specific PHP version and extensions.
+There is also special kind of [platform package](https://getcomposer.org/doc/02-libraries.md#platform-packages) dependency. It allows to depend on specific PHP version and extensions.
 
 ### Manager
 
@@ -47,14 +47,14 @@ Packages are not of much use somewhere out there. That is why from a starting po
 
 Composer thrives on compatibility and packages can come from:
 
- - [Composer repositories](http://getcomposer.org/doc/05-repositories.md#composer)
+ - [Composer repositories](https://getcomposer.org/doc/05-repositories.md#composer)
  - direct downloads
  - version control systems
    - [Subversion](http://subversion.apache.org/)
-   - [Git](http://git-scm.com/) (+ [GitHub](https://github.com/) downloads)
-   - [Mercurial](http://mercurial.selenic.com/) (+ [Bitbucket](https://bitbucket.org/) downloads)
+   - [Git](https://git-scm.com/) (+ [GitHub](https://github.com/) downloads)
+   - [Mercurial](https://www.mercurial-scm.org/) (+ [Bitbucket](https://bitbucket.org/) downloads)
  - [PEAR](http://pear.php.net/) channels
- - [artifacts](http://getcomposer.org/doc/05-repositories.md#artifact) (local ZIP archives)
+ - [artifacts](https://getcomposer.org/doc/05-repositories.md#artifact) (local ZIP archives)
 
 ## Recipes
 

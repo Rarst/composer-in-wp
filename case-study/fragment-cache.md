@@ -6,7 +6,7 @@ subtitle: case study
  - development repository : [GitHub](https://github.com/Rarst/fragment-cache)
  - Composer repository : [Packagist](https://packagist.org/packages/rarst/fragment-cache)
  - versioning : semantic
- - dependencies : [Pimple](http://pimple.sensiolabs.org/), [TLC Transients](/case-study/tlc-transients)
+ - dependencies : [Pimple](https://pimple.symfony.com/), [TLC Transients](/case-study/tlc-transients)
  - suggests : [Update Blocker](https://github.com/Rarst/update-blocker)
 
 ## Development
@@ -35,7 +35,7 @@ Pimple and TLC Transients libraries are required as Composer dependencies. Main 
         {
             "name"    : "Andrey Savchenko",
             "email"   : "contact@rarst.net",
-            "homepage": "http://www.Rarst.net/"
+            "homepage": "https://www.rarst.net/"
         }
     ],
     "support"     : {
@@ -58,5 +58,5 @@ Pimple and TLC Transients libraries are required as Composer dependencies. Main 
 
 ## Documentation Links
 
- - [package links](http://getcomposer.org/doc/04-schema.md#package-links)
- - [autoload `classmap`](http://getcomposer.org/doc/04-schema.md#classmap)
+ - [package links](https://getcomposer.org/doc/04-schema.md#package-links)
+ - [autoload `classmap`](https://getcomposer.org/doc/04-schema.md#classmap)

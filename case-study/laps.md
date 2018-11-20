@@ -6,7 +6,7 @@ subtitle: case study
  - development repository : [GitHub](https://github.com/Rarst/laps)
  - Composer repository : [Packagist](https://packagist.org/packages/rarst/laps)
  - versioning : semantic
- - dependencies : [Symfony Stopwatch](http://symfony.com/doc/current/components/stopwatch.html), [mustache.php](https://github.com/bobthecow/mustache.php)
+ - dependencies : [Symfony Stopwatch](https://symfony.com/doc/current/components/stopwatch.html), [mustache.php](https://github.com/bobthecow/mustache.php)
  - development dependencies : [Twitter Bootstrap](http://getbootstrap.com/)
 
 ## Development
@@ -35,7 +35,7 @@ Composer package for Twitter Bootstrap is required as development dependency to 
         {
             "name"    : "Andrey Savchenko",
             "email"   : "contact@rarst.net",
-            "homepage": "http://www.Rarst.net/"
+            "homepage": "https://www.rarst.net/"
         }
     ],
     "support"    : {
@@ -57,5 +57,5 @@ Composer package for Twitter Bootstrap is required as development dependency to 
 
 ## Documentation Links
 
- - [package links](http://getcomposer.org/doc/04-schema.md#package-links)
- - [autoload `classmap`](http://getcomposer.org/doc/04-schema.md#classmap)
+ - [package links](https://getcomposer.org/doc/04-schema.md#package-links)
+ - [autoload `classmap`](https://getcomposer.org/doc/04-schema.md#classmap)

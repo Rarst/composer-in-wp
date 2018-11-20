@@ -53,7 +53,7 @@ Note that this **only** works for packages that declare `composer/installers` su
 
 ## Documentation Links
 
- - [package type](http://getcomposer.org/doc/04-schema.md#type)
- - [package links](http://getcomposer.org/doc/04-schema.md#package-links)
- - [extra property](http://getcomposer.org/doc/04-schema.md#extra)
- - [config property](http://getcomposer.org/doc/04-schema.md#config)
+ - [package type](https://getcomposer.org/doc/04-schema.md#type)
+ - [package links](https://getcomposer.org/doc/04-schema.md#package-links)
+ - [extra property](https://getcomposer.org/doc/04-schema.md#extra)
+ - [config property](https://getcomposer.org/doc/04-schema.md#config)

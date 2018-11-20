@@ -7,20 +7,20 @@ Compilation of links to online resources about, for, and near Composer.
 
 ## Documentation
 
- - [Composer documentation](http://getcomposer.org/doc/)
+ - [Composer documentation](https://getcomposer.org/doc/)
  - Composer [GitHub project](https://github.com/composer/composer) and [issue tracker](https://github.com/composer/composer/issues) 
  - [interactive `composer.json` cheat sheet](http://composer.json.jolicode.com/)
 
 ## Specifications
 
- - [`composer.json` technical schema](https://github.com/composer/composer/blob/master/res/composer-schema.json) — check against with [`composer validate` command](http://getcomposer.org/doc/03-cli.md#validate)
+ - [`composer.json` technical schema](https://github.com/composer/composer/blob/master/res/composer-schema.json) — check against with [`composer validate` command](https://getcomposer.org/doc/03-cli.md#validate)
  - [SPDX license identifiers](https://github.com/composer/spdx-licenses/blob/master/res/spdx-licenses.json) recognized by Composer
- - [Semantic Versioning](http://semver.org/)
+ - [Semantic Versioning](https://semver.org/)
 
 ## Repositories
 
  - [Packagist](https://packagist.org/) ([GitHub](https://github.com/composer/packagist))
- - [WordPress Packagist](http://wpackagist.org/) ([GitHub](https://github.com/outlandishideas/wpackagist))
+ - [WordPress Packagist](https://wpackagist.org/) ([GitHub](https://github.com/outlandishideas/wpackagist))
 
 ## Packages
 
@@ -33,9 +33,9 @@ Compilation of links to online resources about, for, and near Composer.
 
  - [Nils Adermann](http://www.naderman.de/) ([@naderman](https://twitter.com/naderman)) — Composer developer
  - [Jordi Boggiano](http://nelm.io/jordi) ([@seldaek](https://twitter.com/seldaek)) — Composer developer
- - [Andrey Savchenko](http://www.rarst.net/) ([@Rarst](https://twitter.com/Rarst)) — made this site so gets to plug himself all over it
- - [Tamlyn Rhodes](http://tamlyn.org/) ([@tamlyn](https://twitter.com/tamlyn)) — WordPress Packagist developer
- - [John P Bloch](http://johnpbloch.com/) — WordPress core installer developer
+ - [Andrey Savchenko](https://www.rarst.net/) ([@Rarst](https://twitter.com/Rarst)) — made this site so gets to plug himself all over it
+ - [Tamlyn Rhodes](https://tamlyn.org/) ([@tamlyn](https://twitter.com/tamlyn)) — WordPress Packagist developer
+ - [John P Bloch](https://johnpbloch.com/) — WordPress core installer developer
  - [#ComposerPHP](https://twitter.com/search/%23ComposerPHP) on Twitter
 
 ## Stacks

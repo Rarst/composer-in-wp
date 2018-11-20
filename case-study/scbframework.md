@@ -53,5 +53,5 @@ Since library is not being semantically versioned from Composer point of view it
 
 ## Documentation Links
 
- - [autoload `classmap`](http://getcomposer.org/doc/04-schema.md#classmap)
- - [autoload `files`](http://getcomposer.org/doc/04-schema.md#files)
+ - [autoload `classmap`](https://getcomposer.org/doc/04-schema.md#classmap)
+ - [autoload `files`](https://getcomposer.org/doc/04-schema.md#files)

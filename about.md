@@ -3,7 +3,7 @@ title: About
 excerpt: Info about the “Composer in WordPress site”
 ---
 
-This site had been created by [Andrey “Rarst” Savchenko](http://www.Rarst.net), who became Composer evangelist in WordPress circles after he got bitten by wild Composer in early 2013 (unconfirmed rumor).
+This site had been created by [Andrey “Rarst” Savchenko](https://www.rarst.net), who became Composer evangelist in WordPress circles after he got bitten by wild Composer in early 2013 (unconfirmed rumor).
 
 He has been asked “but where can I read about all of that!?” few too many times and now this is it.
 
@@ -25,11 +25,12 @@ So don’t hesitate to contact with questions or suggestions!
    - [jQuery](http://jquery.com/)
  - CDNs
    - [Google Hosted Libraries](https://developers.google.com/speed/libraries/)
-   - [BootstrapCDN](http://www.bootstrapcdn.com/)
+   - [BootstrapCDN](https://www.bootstrapcdn.com/)
 
 ## Changelog
  - **2018-11**
    - fixed broken links
+   - updated links to secure versions
  - **2018-02**
    - updates site stack recipe
  - **2018-01**

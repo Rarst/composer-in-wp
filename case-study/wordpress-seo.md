@@ -89,6 +89,6 @@ To retain compatibility to PHP 5.2 environment special loader is required as dep
 
 ## Documentation Links
 
- - [package links](http://getcomposer.org/doc/04-schema.md#package-links)
- - [autoload `classmap`](http://getcomposer.org/doc/04-schema.md#classmap)
+ - [package links](https://getcomposer.org/doc/04-schema.md#package-links)
+ - [autoload `classmap`](https://getcomposer.org/doc/04-schema.md#classmap)
  - [scripts](https://getcomposer.org/doc/articles/scripts.md)

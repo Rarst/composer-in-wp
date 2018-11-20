@@ -57,7 +57,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 
  - name is within my `rarst/*` vendor namespace
  - `type` is set to `project` (rather than default `library`), it is mostly semantic hint that this is root package
- - `repositories` declare [WordPress Packagist](http://wpackagist.org/) proxy for Composer access to official WordPress plugin repository
+ - `repositories` declare [WordPress Packagist](https://wpackagist.org/) proxy for Composer access to official WordPress plugin repository
  - `vendor` directory is relocated inside `wp-content`
  - WordPress core, custom theme and number of plugins are listed as dependencies, part of them as for optional development context
  - WordPress [core package](/recipe/core-package) is configured to go into `wp` subdirectory (using custom `wordpress-install-dir` configuration option of core installer, required by core package)
@@ -66,7 +66,7 @@ For example it can be something like this ([original gist](https://gist.github.c
 
 ### From Local File
 
-1. [Download `composer.json` from gist](https://gist.github.com/Rarst/5300767/raw/composer.json) into empty directory
+1. [Download `composer.json` from gist](https://gist.githubusercontent.com/Rarst/5300767/raw/composer.json) into empty directory
 2. Run `composer install --prefer-dist` in that directory
 
 ### From Remote Repository
@@ -129,6 +129,6 @@ require __DIR__ . '/wp-content/vendor/autoload.php';
 
 ## Documentation Links
 
- - [package properties](http://getcomposer.org/doc/04-schema.md#properties)
- - [`composer install` command](http://getcomposer.org/doc/03-cli.md#install)
- - [`composer create-project` command](http://getcomposer.org/doc/03-cli.md#create-project)
+ - [package properties](https://getcomposer.org/doc/04-schema.md#properties)
+ - [`composer install` command](https://getcomposer.org/doc/03-cli.md#install)
+ - [`composer create-project` command](https://getcomposer.org/doc/03-cli.md#create-project)

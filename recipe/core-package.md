@@ -50,9 +50,9 @@ Package for a specific release version of WordPress can be defined like this:
 
 ## Require Package in Project
 
-Now that you have package definition you can drop it into right into `composer.json` of site package, [`repositories : []` field](http://getcomposer.org/doc/04-schema.md#repositories). Easy, but gets bulky fast for multiple versions.
+Now that you have package definition you can drop it into right into `composer.json` of site package, [`repositories : []` field](https://getcomposer.org/doc/04-schema.md#repositories). Easy, but gets bulky fast for multiple versions.
 
-More organized approach is to [host your own Satis repository](http://getcomposer.org/doc/articles/handling-private-packages-with-satis.md) and have it process packages.
+More organized approach is to [host your own Satis repository](https://getcomposer.org/doc/articles/handling-private-packages-with-satis.md) and have it process packages.
 
 Then making use of it in project becomes:
 
@@ -70,9 +70,9 @@ Then making use of it in project becomes:
 }
 ```
 
-This will have Composer look at [rarst.net/packages.json](http://www.rarst.net/packages.json) during install and pick appropriate package version to use.
+This will have Composer look at [rarst.net/packages.json](https://www.rarst.net/packages.json) during install and pick appropriate package version to use.
 
 ## Documentation Links
  
-- [package links](http://getcomposer.org/doc/04-schema.md#package-links) 
-- [package repository](http://getcomposer.org/doc/05-repositories.md#package-2)
+- [package links](https://getcomposer.org/doc/04-schema.md#package-links) 
+- [package repository](https://getcomposer.org/doc/05-repositories.md#package-2)
