@@ -14,14 +14,13 @@ This site’s goal is to provide and point to any information you could possibly
 So don’t hesitate to contact with questions or suggestions!
 
  - pull request to [GitHub/Rarst/composer-in-wp](https://github.com/Rarst/composer-in-wp) or [open issue](https://github.com/Rarst/composer-in-wp/issues)
- - tweet [@Rarst](https://twitter.com/Rarst)
- - drop by [The Loop](http://chat.stackexchange.com/rooms/6/the-loop) chat room at [WPSE](http://wordpress.stackexchange.com/)
+ - tweet or DM [@Rarst](https://twitter.com/Rarst)
 
 ## Internals
 
  - [GitHub Pages](https://pages.github.com/)
    - [Jekyll Pure Liquid Table of Contents](https://github.com/allejo/jekyll-toc)
- - [Twitter Bootstrap](http://getbootstrap.com/) with [Readable theme](http://bootswatch.com/readable/)
+ - [Twitter Bootstrap](http://getbootstrap.com/) with [Readable theme](https://bootswatch.com/3/readable/)
  - scripts
    - [jQuery](http://jquery.com/)
  - CDNs
@@ -29,6 +28,8 @@ So don’t hesitate to contact with questions or suggestions!
    - [BootstrapCDN](http://www.bootstrapcdn.com/)
 
 ## Changelog
+ - **2018-11**
+   - fixed broken links
  - **2018-02**
    - updates site stack recipe
  - **2018-01**

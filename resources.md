@@ -14,7 +14,7 @@ Compilation of links to online resources about, for, and near Composer.
 ## Specifications
 
  - [`composer.json` technical schema](https://github.com/composer/composer/blob/master/res/composer-schema.json) — check against with [`composer validate` command](http://getcomposer.org/doc/03-cli.md#validate)
- - [SPDX license identifiers](https://github.com/composer/composer/blob/master/res/spdx-identifier.json) recognized by Composer
+ - [SPDX license identifiers](https://github.com/composer/spdx-licenses/blob/master/res/spdx-licenses.json) recognized by Composer
  - [Semantic Versioning](http://semver.org/)
 
 ## Repositories
@@ -27,7 +27,7 @@ Compilation of links to online resources about, for, and near Composer.
  - [composer/installers](https://github.com/composer/installers) ([Packagist](https://packagist.org/packages/composer/installers)) — custom installer for frameworks’ paths (including WordPress extensions)
  - [johnpbloch/wordpress](https://github.com/johnpbloch/wordpress) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress)) — automated fork of WordPress core, adding Composer support
  - [johnpbloch/wordpress-core-installer](https://github.com/johnpbloch/wordpress-core-installer) ([Packagist](https://packagist.org/packages/johnpbloch/wordpress-core-installer)) — custom installer for WordPress core to cleanly customize subdirectory path
- - [rarst/locate-vendor](https://bitbucket.org/Rarst/locate-vendor) ([Packagist](https://packagist.org/packages/rarst/locate-vendor)) — small experimental helper to resolve vendor folder location
+ - [rarst/locate-vendor](https://github.com/Rarst/locate-vendor) ([Packagist](https://packagist.org/packages/rarst/locate-vendor)) — small experimental helper to resolve vendor folder location
 
 ## People
 
@@ -35,7 +35,7 @@ Compilation of links to online resources about, for, and near Composer.
  - [Jordi Boggiano](http://nelm.io/jordi) ([@seldaek](https://twitter.com/seldaek)) — Composer developer
  - [Andrey Savchenko](http://www.rarst.net/) ([@Rarst](https://twitter.com/Rarst)) — made this site so gets to plug himself all over it
  - [Tamlyn Rhodes](http://tamlyn.org/) ([@tamlyn](https://twitter.com/tamlyn)) — WordPress Packagist developer
- - [John P Bloch](http://johnpbloch.com/) ([@johnpbloch](https://twitter.com/johnpbloch)) — WordPress core installer developer
+ - [John P Bloch](http://johnpbloch.com/) — WordPress core installer developer
  - [#ComposerPHP](https://twitter.com/search/%23ComposerPHP) on Twitter
 
 ## Stacks
