@@ -112,7 +112,7 @@ Notably we made changes to the default WordPress directory structure, which you 
 
 This is supported natively by WordPress configuration, see documentation in Codex:
 
-1. [Giving WordPress Its Own Directory](https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory)
+1. [Giving WordPress Its Own Directory](https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory) (you likely want Method II with simpler and more robust rewrite setup)
 2. [Moving wp-content folder](https://codex.wordpress.org/Editing_wp-config.php#Moving_wp-content_folder) 
 
 ### Autoload
